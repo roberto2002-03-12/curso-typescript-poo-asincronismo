@@ -1,0 +1,4 @@
+npm i -D typescript
+npx tsc --init
+npx tsc ejecutar codigo ts para pasarlo a js
+npx ts-node src/... ejecutar codigo ts
