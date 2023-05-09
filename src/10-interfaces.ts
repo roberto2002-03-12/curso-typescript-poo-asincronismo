@@ -4,6 +4,11 @@ esto puede ser utilizado para remplazar a la clase padre y que
 la interface sea utilizada en otras clases.
 */
 
+//las interfaces solo puden ser utilizadas para definir los datos y tipos
+//así también se puede declarar funciones y el tipo que va ser, más no hacer lógica
+//utiliza las interfaces para remplazar las clases cuando no se necesita realizar
+//funciones o alguna complejidad.
+//por ejemplo: se puede definir para el recibo de datos de una api.
 export interface Driver {
   database: string;
   password: string;
